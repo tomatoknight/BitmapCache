@@ -26,7 +26,14 @@ public class MainActivity extends AppCompatActivity {
         lv.setAdapter(madapter);
 
         Log.e("TAG", "1111111111111111111111111111111111111111111");
-        Log.e("TAG", "2222222222222222222222222222222222222222222");
+        for (int i = 0; i < 10; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+
+                }
+            });
+        }
         Log.e("TAG", "第三次修改");
         Log.e("TAG","第四次修改");
     }
