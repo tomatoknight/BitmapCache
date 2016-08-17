@@ -39,5 +39,14 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 10; i++) {
             Log.e("TAG","合并冲突");
         }
+
+        /**
+         * 创建了分支addHelper
+         *
+         *
+         *
+         *
+         */
+
     }
 }
