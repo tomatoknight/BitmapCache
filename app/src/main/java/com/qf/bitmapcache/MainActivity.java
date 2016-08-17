@@ -2,6 +2,7 @@ package com.qf.bitmapcache;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -23,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter madapter = new MyAdapter(data, this);
 
         lv.setAdapter(madapter);
-
+        Log.e("TAG", "1111111111111111111111111111111111111111111");
     }
 }
