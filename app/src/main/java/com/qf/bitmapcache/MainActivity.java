@@ -34,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-        Log.e("TAG", "第三次修改");
-        Log.e("TAG","第四次修改");
+
+
+        for (int i = 0; i < 10; i++) {
+            Log.e("TAG","合并冲突");
+        }
     }
 }
