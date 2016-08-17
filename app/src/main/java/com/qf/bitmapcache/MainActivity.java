@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter madapter = new MyAdapter(data, this);
 
         lv.setAdapter(madapter);
+
         Log.e("TAG", "1111111111111111111111111111111111111111111");
+        Log.e("TAG", "2222222222222222222222222222222222222222222");
     }
 }
